@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", serif;
+    background: whitesmoke;
+}
+.header--hero{
+    background: #1f2937;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0.3rem;
+}
+nav ul{
+     
+     display: flex;
+     gap: 15px;
+     list-style-type: none;
+     margin: 0.1em 5rem;
+     
+}
+ul a{
+    text-decoration: none;
+}
+a:link, a:active, a{
+    color: #c7c2c2;
+}
+a:hover{
+    color: #e5e7eb;
+}
+.logo--h2{
+    color: #e0e0e0;
+    margin: 0.2rem 10rem;
+}
+.section--hero {
+    display: flex;
+    
+}
+.text-container {
+    display: block;
+    max-width: 60%;
+    margin: 6rem;
+}
+.section--hero img {
+    /* Adjust spacing between text and image */
+    max-width: 40%;
+    height: auto;
+    margin: 4rem;
+    
+}
+.section--hero button{
+    margin: 15px;
+    padding: 0.4rem;
+    background: dodgerblue;
+    color: #fff;
+    border: 2px solid #1f2937;
+    border-radius:15px;
+    
+}
+.section--hero h2{
+    font-size: 3rem;
+    color: #e0e0e0;
+}
+.section--hero p{
+    color: #c7c2c2;
+    font-size: 22px;
+}
+.another--section h2{
+    text-align: center;
+    font-size: 43px;
+    margin: 15px;
+    
+}
+.another--section {
+    text-align: center;
+}
+
+.div--container {
+    display: flex;
+    flex-wrap: wrap;
+   /* Adjusts spacing between items */
+    margin: 49px;
+    align-items: center;
+    gap: 18px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin: 1px 2px; 
+     /* Adjust width as needed */
+     align-items: center;
+    
+     
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border: 2px solid dodgerblue;
+    border-radius: 14px;
+   
+}
+
+.item p {
+    margin-top: 8px; /* Adjust spacing between image and paragraph */
+    text-align: center;
+    color: #1f2937;
+}
+.third-section{
+    background: #e5e7eb;
+    padding: 10rem;
+   margin-top: 6rem;
+    width: 100%;
+}
+.third-section blockquote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.third-section P{
+    float:right;
+    margin-top: 18px;
+    font-weight: 600;
+    font-size: 23px;
+}
+.last--section{
+    background: dodgerblue;
+    color: #e0e0e0;
+    padding: 3.4em;
+    display: flex;
+    max-width: 73%;
+    margin-left: 14em;
+    margin-top: 5rem;
+    justify-content: space-between;
+    border-radius: 12px;
+    
+}
+.last--section P{
+    font-size: 21px;
+    color: #e2dcdc ;
+   
+}
+.last--section span{
+    font-size: 30px;
+    color:#fffafa;
+}
+.dante--button{
+    color: #fff;
+    background: dodgerblue;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 0.1rem;
+    max-width: 44rem;
+    height: auto;
+    width: 20%;
+}
+footer{
+    color: #fff;
+    text-align: center;
+    padding: 1.8rem;
+    margin-top: 5rem;
+    background: #1f2937;
+}
+footer p{
+    font-size: 22px;
+}
